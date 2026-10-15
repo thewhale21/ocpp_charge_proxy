@@ -131,11 +131,12 @@ Assistant's API.
     power, what ended them, with details, IDs and the power curve on click),
     and plug-ins that never got a session with the reason, kept across
     restarts.
-  - **Automations:** **Charge now** at the top; the plug-in schedule (below), with one-off times and a
-    view of the last 3 days and the next 7 where you click or drag to add a
+  - **Automations:** the schedule card, with what it does next and
+    **Charge now** in its banner; the plug-in schedule, with one-off times and a
+    view of today and the next 6 days where you click or drag to add a
     slot and click one to change, delete or skip it; Force schedule on
     supplier; auto plug-in and auto re-plug.
-  - **Settings:** controls for Plugged In, max current and
+  - **Settings:** a Colourful or Basic theme; controls for Plugged In, max current and
     **Continue session after a restart**; the
     simulated car's start delay and ramp-up; your power, SoC and car
     plugged in sensors, with live values; and **Your supplier**: its smart
