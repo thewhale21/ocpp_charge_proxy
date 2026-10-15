@@ -1,5 +1,15 @@
 # Changelog
 
+## 2.46.0 — Recent sessions with a 7-day timeline
+
+- **Improvement:** the Sessions tab's **Recent sessions** card opens with a
+  timeline of the last 7 days: when the car was plugged in (coloured by what
+  plugged it in: the schedule, auto plug-in, Charge now, ...), when it
+  actually charged (with the kWh), and each day's energy and time charging.
+  Click a day to show only its sessions in the list below (again to show
+  all), or click a charge to open that session's details.
+- **Change:** the **Per day** chart is gone (the timeline replaces it).
+
 ## 2.45.1 — The schedule without the past days
 
 - **Change:** the Automations tab's schedule shows today and the next 6
@@ -180,6 +190,11 @@
   (`/data/automation_runtime.json`) and runs a missed unplug when it's back
   (within a day, if nothing has come since). An unplug waiting for the
   supplier to stop the session also carries on after a restart.
+
+## 2.39.2 — Now in the HA_Addons repository
+
+- **Change:** the add-on now lives in the HA_Addons repository: its
+  website link, documentation link and image source point there.
 
 ## 2.39.1 — Reconnecting sooner
 

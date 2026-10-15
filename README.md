@@ -126,8 +126,8 @@ Assistant's API.
     of power, current (with your max and the supplier limit) or SoC over
     the last 30 minutes to 24 hours, or 14 days, read from Home Assistant's
     history of the add-on's sensors. Drag or scroll on it to zoom.
-  - **Sessions:** energy per day for the last 14 days (click a day to show
-    its sessions); the last 20 charging sessions (energy, duration, peak
+  - **Sessions:** a 7-day timeline of when the car was plugged in and
+    charged (click a day to show its sessions, or a charge to open it); the last 20 charging sessions (energy, duration, peak
     power, what ended them, with details, IDs and the power curve on click),
     and plug-ins that never got a session with the reason, kept across
     restarts.
