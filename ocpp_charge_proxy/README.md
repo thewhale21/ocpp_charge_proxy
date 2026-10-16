@@ -65,7 +65,7 @@ example automation below).
 
 1. Add this repository to Home Assistant:
    **Settings › Add-ons › Add-on store › ⋮ › Repositories**, and add
-   `https://github.com/thewhale21/ocpp_charge_proxy`.
+   `https://github.com/thewhale21/HA_Addons`.
 2. Find **OCPP Charge Proxy** in the store and click **Install**.
 3. On the **Configuration** tab, fill in your supplier's details (below)
    and click **Save**.
@@ -116,7 +116,7 @@ Work through the tabs once, top to bottom.
 | **Auto plug-in** | You want it to plug in when the car's SoC drops below a level |
 | **Car plugged in** | You have a "cable connected" sensor and want it to plug in when you connect the car. Its switch turns it off without forgetting the sensor |
 | **Auto re-plug** | Your supplier sometimes doesn't start a session (Octopus does this): it unplugs and plugs back in for you |
-| **No-charging times** | Times nothing should be scheduled, e.g. off-peak hours when the car charges anyway |
+| **Off-peak times** | Times nothing should be scheduled, e.g. off-peak hours when the car charges anyway |
 | **Saving sessions** | You take part in saving sessions (Octopus, E.ON Next, EDF): it reads them from a calendar, keeps charging out of them (starting slots earlier) and can charge for a few hours before each |
 
 ## Make it switch your charger
@@ -177,8 +177,8 @@ target:
 - **Asking for help:** **Diagnostics › Debug › Diagnostics bundle**
   downloads one file with everything needed (your password and most of
   the chargepoint ID are hidden). Attach it to a
-  [GitHub issue](https://github.com/thewhale21/ocpp_charge_proxy/issues).
+  [GitHub issue](https://github.com/thewhale21/HA_Addons/issues).
 
-[docs]: https://github.com/thewhale21/ocpp_charge_proxy/blob/master/ocpp_charge_proxy/DOCS.md
+[docs]: https://github.com/thewhale21/HA_Addons/blob/main/ocpp_charge_proxy/DOCS.md
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
